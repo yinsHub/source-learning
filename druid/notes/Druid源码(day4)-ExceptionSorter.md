@@ -122,7 +122,7 @@ public class MySqlExceptionSorter implements ExceptionSorter {
 
 这段代码确实没什么费解的地方，看看调用处。
 
-![image-20220514005429565](/../../../images/image-20220514005429565.png)
+![image-20220514005429565](https://cdn.superyins.cn/image-20220514005429565.png)
 
 除了第一个不是Test case，其余都是。
 
@@ -135,6 +135,6 @@ if (exceptionSorter != null && exceptionSorter.isExceptionFatal(sqlEx)) {
 
 
 
-![image-20220514005617166](/../../../images/image-20220514005617166.png)
+![image-20220514005617166](https://cdn.superyins.cn/image-20220514005617166.png)
 
 最后找了几个执行出看，都是直接处理，然后抛出。
